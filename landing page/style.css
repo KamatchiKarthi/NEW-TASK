@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  height: 100vh;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 880px;
+}
+.fntclr {
+  color: #222222;
+  width: 300px;
+}
+
+header img {
+  object-fit: contain;
+  padding-left: 10px;
+  width: 20px;
+}
+header > nav {
+  display: flex;
+}
+
+.nav-1 {
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+.nav-2 {
+  gap: 30px;
+
+  align-items: center;
+}
+nav > a {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #222222;
+  text-decoration: none;
+}
+
+.butt {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  background-color: #fd8d3a;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 2px #e9d1c0;
+}
+.nav-3 {
+  color: #fd8d3a;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  position: static;
+  width: 400px;
+}
+.cont-1 {
+  width: 380px;
+  display: inline-block;
+}
+.cont-2 {
+  font-size: 20px;
+  margin-top: -25px;
+  width: 440px;
+  height: 70px;
+  color: #666666;
+}
+
+main-1 {
+  display: flex;
+  margin: 0 250px;
+  justify-content: space-between;
+}
+
+.disnow {
+  margin-top: 16px;
+  color: #fd8d3a;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border: 2px solid #fd8d3a;
+}
+
+.trl {
+  position: static;
+  width: 600px;
+  height: 395px;
+  margin-left: -83px;
+}
+.page1 {
+  background-color: #d6a790;
+  height: 700px;
+}
+.page1-1 {
+  padding-left: 250px;
+  
+}
+.main-1 {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 700px;
+  align-items: center;
+  height: 100px;
+}
+
+.cont-3 > i {
+  color: #fd8d3a;
+}
+.cont-3 > h3 {
+  display: inline;
+}
+.cont-3 {
+  border-radius: 16px;
+  padding: 15px;
+  margin: 50px 0;
+}
+.main-1 > button {
+  font-size: 17px;
+  padding: 15px;
+  margin-left: 65px;
+}
+.secondpage {
+  margin-top: -50px;
+  background-color: #8b9eea;
+  height: 500px;
+  padding-left: 250px;
+  position: static;
+}
+.login-1 {
+  display: flex;
+  margin-top: 150px;
+
+  align-items: center;
+  
+  
+  
+}
